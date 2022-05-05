@@ -47,6 +47,7 @@ a{
     color: white;
     margin: 20px;
     box-shadow: 2px 2px 4px black;
+    overflow: auto;
 }
 
 img{
