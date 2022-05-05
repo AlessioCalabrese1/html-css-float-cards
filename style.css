@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.titolo{
+    text-align: center;
+    margin: 20px;
+    color: rgb(218, 70, 119);
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+}
+
+.lorem{
+    text-align: center;
+    margin: 15px;
+    font-size: larger;
+}
+
+.fleft{
+    float: left;
+}
+
+.etichetta
+{
+    width: calc(33% - 40px);
+    height: 100px;
+    background-color: rgb(10, 10, 56);
+    color: white;
+    margin: 20px;
+}
+
+img{
+    height: 100%;
+}
+
+.nome{
+    font-size: 10px;
+    font-weight: bolder;
+    font-family: 'Nunito', sans-serif;
+}
+
+.testo{
+    line-height: 20px;
+    margin: 20px;
+    display: inline-block;
+}
