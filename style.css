@@ -46,6 +46,7 @@ a{
     background-color: rgb(10, 10, 56);
     color: white;
     margin: 20px;
+    box-shadow: 2px 2px 4px black;
 }
 
 img{
